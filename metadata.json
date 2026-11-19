@@ -1,0 +1,6 @@
+{
+  "name": "Juju — Juliette Garel Voice Assistant",
+  "description": "Minimalist portfolio and multilingual real-time voice assistant (English, French, Spanish) for Juliette Garel, Digital Communications & Social Media candidate.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

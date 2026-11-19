@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-beige: #EAE0D0;
+    --bg-surface: #F4EDE2;
+    --bg-subtle: #DFD3C0;
+    --ink-title: #3B2314;
+    --ink-primary: #2D1E16;
+    --ink-secondary: #5C4738;
+    --ink-muted: #786252;
+    --accent-pink: #F7C6D4;
+    --border-hairline: rgba(59, 35, 20, 0.14);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-beige);
+    color: var(--ink-primary);
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--bg-beige);
+    color: var(--ink-primary);
+    margin: 0;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: "Placard Next Compressed", "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: var(--ink-title);
+  }
+}
+
+.font-editorial {
+  font-family: "Placard Next Compressed", "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.font-sans-ui {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
